@@ -129,14 +129,24 @@ const App = () => {
   ];
 
   return (
-    <div className="parent">
-      {jobs.map(function (e) {
 
-        return <Card logo={e.logo} company={e.company} post={e.post} posted={e.posted} tag1={e.tag1} tag2={e.tag2} pay={e.pay} location={e.location} />
-      })}
+    <>
+      <header className="header">
+        <div className="header-content">
+          <h1>JOB OPENINGS</h1>
+          <p>Find your next frontend role</p>
+        </div>
+      </header>
+      <div className="parent">
 
-    </div>
 
+        {jobs.map(function (e) {
+
+          return <Card logo={e.logo} company={e.company} post={e.post} posted={e.posted} tag1={e.tag1} tag2={e.tag2} pay={e.pay} location={e.location} />
+        })}
+
+      </div>
+    </>
   )
 }
 
