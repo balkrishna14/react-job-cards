@@ -1,16 +1,43 @@
-# React + Vite
+💼 React Job Cards UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern job listing interface built using React + Vite that displays job openings from top tech companies in a clean card-based layout similar to LinkedIn / Wellfound.
 
-Currently, two official plugins are available:
+The application focuses on responsive UI design, reusable components, and real-world frontend practices like deployment and asset handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⸻
 
-## React Compiler
+🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://balkrishna14.github.io/react-job-cards/
 
-## Expanding the ESLint configuration
+⸻
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+	•	Company job cards layout
+	•	Dynamic rendering using JavaScript objects
+	•	Reusable React components
+	•	Responsive design (flexbox layout)
+	•	Company logos handled locally (production safe)
+	•	Clean UI with tags, salary & location info
+	•	GitHub Pages deployment (production build)
+
+⸻
+
+🧠 What I Learned
+	•	React component architecture
+	•	Props & list rendering
+	•	Handling static assets in React
+	•	Fixing Vite base path issues
+	•	Debugging production white screen errors
+	•	Deploying React apps on GitHub Pages
+
+⸻
+
+🛠️ Tech Stack
+	•	React
+	•	Vite
+	•	JavaScript (ES6)
+	•	CSS3 (Flexbox)
+	•	Git & GitHub Pages
+
+⸻
